@@ -4,7 +4,7 @@ function hello(name) {
 * It would return "Hellow codecheck!" in the case that "codecheck" is entered in this "name".
 */
   //implement "Helloworld" in here.
-  //return "Hello World!";
+  return "Hello " + name + "!";
 }
 
 module.exports = hello;
